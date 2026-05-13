@@ -48,6 +48,5 @@ network_access = true
 
 
 [features]
-codex_hooks = true
 hooks = true
 
