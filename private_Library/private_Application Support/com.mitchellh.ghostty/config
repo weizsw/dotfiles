@@ -20,3 +20,4 @@ quick-terminal-position = top
 quick-terminal-animation-duration = 0.12
 quick-terminal-screen = main
 shell-integration-features = no-cursor
+cursor-style-blink = false
