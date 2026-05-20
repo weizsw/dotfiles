@@ -1,0 +1,22 @@
+# You can preview the config here
+keybind = global:ctrl+escape=toggle_quick_terminal
+theme = Catppuccin Frappe
+# theme = Monokai Pro Spectrum
+# theme = Dracula
+# theme = Gruvbox Material Dark
+
+font-family = FiraCode Nerd Font Mono
+font-family-bold = FiraCode Nerd Font Mono
+font-family-italic = FiraCode Nerd Font Mono
+font-family-bold-italic = FiraCode Nerd Font Mono
+font-style = bold
+font-style-italic = bold
+font-style-bold-italic = bold
+macos-icon = retro
+cursor-style = block
+font-size = 14
+font-feature = true
+quick-terminal-position = top
+quick-terminal-animation-duration = 0.12
+quick-terminal-screen = main
+shell-integration-features = no-cursor
