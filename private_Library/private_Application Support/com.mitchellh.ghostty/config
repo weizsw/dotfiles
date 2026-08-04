@@ -5,10 +5,10 @@ theme = Catppuccin Frappe
 # theme = Dracula
 # theme = Gruvbox Material Dark
 
-font-family = FiraCode Nerd Font Mono
-font-family-bold = FiraCode Nerd Font Mono
-font-family-italic = FiraCode Nerd Font Mono
-font-family-bold-italic = FiraCode Nerd Font Mono
+font-family = Maple Mono NF CN
+font-family-bold = Maple Mono NF CN
+font-family-italic = Maple Mono NF CN
+font-family-bold-italic = Maple Mono NF CN
 font-style = bold
 font-style-italic = bold
 font-style-bold-italic = bold
@@ -21,3 +21,4 @@ quick-terminal-animation-duration = 0.12
 quick-terminal-screen = main
 shell-integration-features = no-cursor
 cursor-style-blink = false
+keybind = alt+backspace=text:\x17
