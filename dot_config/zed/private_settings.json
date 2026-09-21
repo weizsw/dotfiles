@@ -1,0 +1,122 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+  "lsp_results_location": "multi_buffer",
+  "title_bar": {
+    "show_branch_status_icon": false
+  },
+  "search": {
+    "whole_word": false
+  },
+  "cursor_shape": "bar",
+  "cursor_animation": {
+    "enabled": false
+  },
+  "cursor_blink": true,
+  "markdown_preview": {
+    "code_font_family": "Maple Mono NF CN",
+    "font_family": "Maple Mono NF CN"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "language_models": {
+    "openai_compatible": {
+      "Codex": {
+        "api_url": "https://127.0.0.1:8317/v1",
+        "available_models": [
+          {
+            "name": "gpt-5.5",
+            "max_tokens": 200000,
+            "max_output_tokens": 32000,
+            "max_completion_tokens": 200000,
+            "capabilities": {
+              "tools": true,
+              "images": false,
+              "parallel_tool_calls": false,
+              "prompt_cache_key": false,
+              "chat_completions": true,
+              "interleaved_reasoning": false
+            }
+          }
+        ]
+      }
+    }
+  },
+  "edit_predictions": {
+    "provider": "zed",
+    "ollama": {
+      "api_url": "http://localhost:11434"
+    },
+    "codestral": {
+      "api_url": "https://codestral.mistral.ai"
+    },
+    "open_ai_compatible_api": {
+      "api_url": "https://127.0.0.1:8317/v1",
+      "model": "gpt-5.4-mini"
+    }
+  },
+  "minimap": {
+    "thumb_border": "left_open",
+    "thumb": "always",
+    "show": "always",
+  },
+  "agent_buffer_font_size": 14.0,
+  "agent_ui_font_size": 14.0,
+  "languages": {
+    "Go": {
+      "indent_guides": {
+        "coloring": "fixed",
+      },
+    },
+  },
+  "document_symbols": "off",
+  "terminal": {
+    "font_family": "Maple Mono NF CN",
+    "font_size": 14.0,
+  },
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Material Icon Theme",
+  },
+  "agent_servers": {
+    },
+  "project_panel": {
+    "default_width": 350.0,
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "dock": "right",
+    "default_model": {
+      "enable_thinking": false,
+      "provider": "Codex",
+      "model": "gpt-5.5",
+    },
+  },
+  "ui_font_size": 16.0,
+  "buffer_font_size": 16,
+  "ui_font_family": "Maple Mono NF CN",
+  "buffer_font_family": "Maple Mono NF CN",
+  "theme": "Gruvbox Material",
+}
